@@ -8,7 +8,7 @@ def core_l2():
     import json
     _dt=json.load(open('data/dort.json',encoding='utf-8'))
     import creedlib as CL
-    x=('<p>每个主日、每条信条、每项教义和每个信经条目各配一组：<b>🎯 核心一句</b>（抓住本质）、<b>🧠 记忆钩</b>（口诀、数字、前后对比）、（“为何重要”在各深读页）。本站学习用语，非 CCI 原文；编号可点回深读页。</p>'
+    x=('<p>每个主日、信条、教义和信经条目各有一组：<b>🎯 核心一句</b>、<b>🧠 记忆钩</b>（口诀、数字、对比）；“为何重要”见各深读页。本站学习用语，非 CCI 原文；编号可点回深读页。</p>'
        +'<div class="legend"><span class="cwk k1">🎯 核心</span><span class="cwk k2">🧠 记忆钩</span></div>')
     for k,lab,lo,hi in PART_RANGE:
         rows=[(f"主日{n}",HC52[n][0],HC_CORE[n],f"hc.html#ld{n}") for n in range(lo,hi+1)]

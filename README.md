@@ -1,16 +1,16 @@
 # 三大公教会信经 · 欧陆改革宗深读
 
-**版本标签：three-ecumenical-creeds-study-continental-20261114-v18-GROKstudy**（页脚版本 v20261114-18）
+**版本标签：three-ecumenical-creeds-study-continental-20261114-v19-GROKstudy**（页脚版本 v20261114-19）
 
 使徒信经、尼西亚信经、亚他那修信经，以及三项联合信条（比利时信条、海德堡要理问答、多特信经）的中文综合学习网站（欧陆改革宗视角）。原文逐字取自 CCI《赞美手册》中文版；CCI 没有的内容用《中国改革宗教会敬拜手册》2015 版补充，逐字摘引并标页码（tools/verify_pdf.py 核对）。
 
-## 当前版本链接（v18）
+## 当前版本链接（v19）
 - GitHub Pages：https://07-je-grok-love-personal-20260928.github.io/three-ecumenical-creeds-study-continental-GROKstudy/
-- Netlify：https://three-ecumenical-creeds-continental-20261114-v18-grokstudy.netlify.app/
-- Surge：https://three-ecumenical-creeds-continental-20261114-v18-grokstudy.surge.sh/
+- Netlify：https://three-ecumenical-creeds-continental-20261114-v19-grokstudy.netlify.app/
+- Surge：https://three-ecumenical-creeds-continental-20261114-v19-grokstudy.surge.sh/
 - 仓库：https://github.com/07-Je-Grok-Love-Personal-20260928/three-ecumenical-creeds-study-continental-GROKstudy
 
-命名：仓库名只含主题（…-GROKstudy，以后不再改名）；Netlify / Surge 域名为“主题-日期-版本-grokstudy”（小写；t91 起后缀改回 grokstudy）。信经站完整主题名加日期与版本后超过 Netlify 的 63 字符上限，故域名使用缩短形 three-ecumenical-creeds-continental-20261114-v18-grokstudy（去掉中间的 study，与 t87 同类处理），Surge 与 Netlify 同名。每个版本一个新域名，旧域名继续在线。
+命名：仓库名只含主题（…-GROKstudy，以后不再改名）；Netlify / Surge 域名为“主题-日期-版本-grokstudy”（小写；t91 起后缀改回 grokstudy）。信经站完整主题名加日期与版本后超过 Netlify 的 63 字符上限，故域名使用缩短形 three-ecumenical-creeds-continental-20261114-v19-grokstudy（去掉中间的 study，与 t87 同类处理），Surge 与 Netlify 同名。每个版本一个新域名，旧域名继续在线。
 
 ## 发布（Releases）——随时恢复
 
@@ -18,7 +18,8 @@
 
 | 标签 | 说明 | 链接 |
 |---|---|---|
-| `v20261114-18` | v18 当前版本（2026-11-14 台北）：目录三级折叠并可拖宽；本站说明再收紧；目录页签与按需展开 |
+| `v20261114-19` | v19 当前版本（2026-11-14 台北）：对比度与尼西亚概念图标签重叠修复 | https://github.com/07-Je-Grok-Love-Personal-20260928/three-ecumenical-creeds-study-continental-GROKstudy/releases/tag/v20261114-19 |
+| `v20261114-18` | v18（恢复点：t97 前的线上版本 75fda49）（2026-11-14 台北）：目录三级折叠并可拖宽；本站说明再收紧；目录页签与按需展开 | https://github.com/07-Je-Grok-Love-Personal-20260928/three-ecumenical-creeds-study-continental-GROKstudy/releases/tag/v20261114-18 |
 | `v20261114-17` | v17（恢复点：t94 前的线上版本 f2ba03d）（2026-11-14 台北）：本站说明收紧、手机导航不挡字、性能；域名缩短说明见上 | https://github.com/07-Je-Grok-Love-Personal-20260928/three-ecumenical-creeds-study-continental-GROKstudy/releases/tag/v20261114-17 |
 | `v20261114-16` | v16（恢复点：t93 前的线上版本 14a90e6）（2026-11-14 台北）：多源地图、新圣约／西敏地图与历史块、重叠修复、标记加强；域名缩短说明见上 | https://github.com/07-Je-Grok-Love-Personal-20260928/three-ecumenical-creeds-study-continental-GROKstudy/releases/tag/v20261114-16 |
 | `v20261023-15` | v15（恢复点：t91 前的线上版本 89451cf）（2026-10-23 台北）：性能（换主题、手机滚动与切图层）、手机地图适配屏宽、新增 5 套主题（共 9 套）、首页一图看全、排版、关闭徽章、日期更正 | https://github.com/07-Je-Grok-Love-Personal-20260928/three-ecumenical-creeds-study-continental-GROKstudy/releases/tag/v20261023-15 |
@@ -33,7 +34,8 @@
 
 | 版本 | 更新内容 | 仍可访问的链接 |
 |---|---|---|
-| **v18 · v20261114-18**（当前，2026-11-14 台北） | 目录：一级「一、二、」编号，二、三级可折叠，进入页面只展开当前部分，并提供全开/全收；打开后可左右拖宽（桌面与平板，宽度记在本机，拖动不重排正文）；长标题悬挂换行。再收紧信经导读与比较页本站说明（CCI 不动）；桌面收起目录后左侧保留「目录」页签；非当前一级目录按需展开。域名仍用缩短形 three-ecumenical-creeds-continental-20261114-v18-grokstudy。 |
+| **v19 · v20261114-19**（当前，2026-11-14 台北） | 对比度：首页主标题改为实色（不再用透明填色），故事线步骤图标达到 WCAG AA；尼西亚概念图标签避让加宽，去掉「西尔米乌姆」与「下多瑙河哥特人」的重叠。域名仍用缩短形 three-ecumenical-creeds-continental-20261114-v19-grokstudy。本轮其余项将继续完成。 |
+| **v18 · v20261114-18**（恢复点 75fda49，2026-11-14 台北） | 目录：一级「一、二、」编号，二、三级可折叠，进入页面只展开当前部分，并提供全开/全收；打开后可左右拖宽（桌面与平板，宽度记在本机，拖动不重排正文）；长标题悬挂换行。再收紧信经导读与比较页本站说明（CCI 不动）；桌面收起目录后左侧保留「目录」页签；非当前一级目录按需展开。域名仍用缩短形 three-ecumenical-creeds-continental-20261114-v18-grokstudy。 | 旧版本：[Netlify](https://three-ecumenical-creeds-continental-20261114-v18-grokstudy.netlify.app/) · [Surge](https://three-ecumenical-creeds-continental-20261114-v18-grokstudy.surge.sh/) |
 | **v17 · v20261114-17**（恢复点 f2ba03d，2026-11-14 台北） | 内容：比较页与信经导读收紧本站说明（CCI 原文不动）。导航：手机 🧭 改小，适配安全区，正文左右留白；向下滚动时自动隐藏，上滚或点按再显示。性能：推迟非首屏工作、收紧长列表预留高度。域名：因 Netlify 上限 63 字符，使用缩短形 three-ecumenical-creeds-continental-20261114-v18-grokstudy。 | 见上表 |
 | **v16 · v20261114-16**（恢复点 14a90e6，2026-11-14 台北） | 地图：每张真实地图增加可切换在线底图（OpenStreetMap、CARTO、Esri 卫星影像与地形图、高德），仅在点选后才加载自托管 Leaflet（不走 CDN）；8 秒无响应自动回到本地 Natural Earth 底图，无需网络时仍可看图。新增圣约地理图、威斯敏斯特与欧陆对照图，以及圣经／比较／西敏页的历史与文化背景块（本站概述，出处列于块尾）。重叠：修掉比较页时间轴与 TULIP 示意图上原有的 17 处文字重叠；手机上将 🧭 导航簇移到左下，并为图表右侧留白，避免挡住数字。标记：加强荧光底、实线与虚线，新增重点区块样式。桌面端增加轻量飘动（仅 transform，减少动态时关闭）。域名后缀改回 -grokstudy。 域名：因 Netlify 上限 63 字符，使用缩短形 three-ecumenical-creeds-continental-20261114-v18-grokstudy。 | 见上表 |
 | **v15 · v20261023-15** | 性能（手机实测）：换主题不再做颜色过渡（样式重算约 270 ms → 约 50 ms）；手机去掉剩余毛玻璃；悬停/按下链接时预取同站页面（Speculation Rules）；跨页淡入淡出（View Transitions）；真实地图图片在接近视口时空闲预载。地图：手机真实地图改用 520 px 专用版本，整图适配屏宽、无横向滚动，点按后仍可双指/按钮缩放；主题：新增 🌸 樱花粉、🌊 深海蓝、🍂 秋叶琥珀、☁️ 云端灰白、🌿 护眼绿，共 9 套，菜单与顶部色点一键切换并记住，首屏无闪烁。图表：首页一图看全（字数条形图、海德堡各部问数、年代刻度；本站统计，与比较页同一算法）。排版：中文标点避头尾、段落行宽、标题平衡换行、表格等宽数字；新浅色主题的小号码与原文标签修正到 WCAG AA。徽章：新站关闭 Netlify 徽章（站点设置 API）。日期：v14 的日期更正为 2026-10-23（台北）。 | 旧版本：[Netlify](https://three-ecumenical-creeds-study-continental-20261023-v15-grokser.netlify.app/) · [Surge](https://three-ecumenical-creeds-study-continental-20261023-v15-grokser.surge.sh/)（2026-10-23 台北） |

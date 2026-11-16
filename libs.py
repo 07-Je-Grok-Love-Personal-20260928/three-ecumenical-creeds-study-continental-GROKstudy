@@ -92,7 +92,7 @@ def part_creeds():
             body="".join(CL.art(k,CL.lines(at[k])) for k in range(lo,hi+1))
             x+=L3(f"at-g{g}",f"第{lo}–{hi}点 · {nm}" if hi!=lo else f"第{lo}点 · {nm}",body,gi,sub=f"{hi-lo+1} 点",cls="ldc rcs")
     x+='</div>'
-    x+=L3("at-txt","CCI 导言与原文整段（逐字）",block("athanasian","亚他那修信经")+hard("<b>编号差异（已核对）：</b>CCI 导言说“第二部分包括第29-43点”，但其正文编号只到第42点（第42点是“这是大公信仰……阿们”）。本站背诵版按 CCI 正文 42 点。URCNA（urcna.org/athanasian）的英文版分为 44 节；改革宗初学者网站（reformedbeginner.net）亦为 44 节——不同教会编号不同，文字内容相同，引用时请注明所用版本。"),"scroll",cls="tx")
+    x+=L3("at-txt","CCI 导言与原文整段（逐字）",block("athanasian","亚他那修信经")+hard("<b>编号差异（已核对）：</b>CCI 导言写“第二部分包括第29-43点”，正文编号只到第42点（“这是大公信仰……阿们”）。本站背诵版按 CCI 正文 42 点。URCNA 与改革宗初学者网站的英文版为 44 节——编号不同，文字相同，引用时请注明版本。"),"scroll",cls="tx")
     b += L2("cr-at","7.4","亚他那修信经 · 42 点 · 11 组（背诵版）",x)
     return L1("creeds","七","三大信经全文与背诵版","scroll","CCI《赞美手册》中文版原文逐字收录；背诵版一行一句，按条／节／主题分组。", b)
 
@@ -103,7 +103,7 @@ def part_bc():
     intro="".join(f'<p class="ex">{fn(p)}</p>' for p in D["intro"])
     b = L2("bc-intro","8.1","导言与说明（CCI 原文）", exact_note("第8–11条（三位一体）与第9条（接受三信经）是本站讲解的核心。")+intro+f'<p class="src">{src_link(D["url"],"CCI 比利时信条总页")}</p>'
         + chips([(f"bc-{a['n']}",str(a['n']),a['title']) for a in D["articles"]])
-        + note("八个分节标题（神与启示、三位一体等）为本站为导航所加；CCI 页面本身只按条列出。"))
+        + note("八个分节标题（神与启示、三位一体等）为本站导航所加；CCI 页面本身只按条列出。"))
     for gid,num,gt,lo,hi in BCG:
         x=""
         for a in D["articles"][lo-1:hi]:
@@ -127,7 +127,7 @@ def part_hc():
     intro="".join(f'<p class="ex">{H.escape(p)}</p>' for p in D["intro"])
     b = L2("hc-intro","9.1","导言与结构（CCI 原文）",exact_note("共 52 个主日、129 问；使徒信经由主日7–22（问22–58）讲解。")+intro+f'<p class="src">{src_link(D["url"],"CCI 海德堡要理问答总页")}</p>'
         + chips([(f"ld{l['n']}",str(l['n']),f"主日{l['n']}：问{rng[l['n']][0]}–{rng[l['n']][1]}") for l in lds])
-        + note('上方数字＝主日；悬停可见问号范围。每个主日下附 CCI“我属于”（I Belong）系列对应课程链接 ccifellowship.org/books/i-belong/N（该系列把几个主日合并的有主日26–27、28–30、36–37）。'))
+        + note('上方数字＝主日；悬停可见问号范围。各主日附 CCI《我属于》课程链接（主日26–27、28–30、36–37 为合并课）。'))
     groups=[("hc-g1","9.2","第一部 论人的罪和愁苦（主日1–4）",1,4),("hc-g2","9.3","第二部 论我们的得救：中保、信心与信经（主日5–10）",5,10),
       ("hc-g3","9.4","子神和我们的得赎（主日11–19）",11,19),("hc-g4","9.5","圣灵神和我们的成圣（主日20–22）",20,22),("hc-g5","9.6","我们得称为义（主日23–24）",23,24),
       ("hc-g6","9.7","圣言与圣礼（主日25）",25,25),("hc-g7","9.8","圣洗礼（主日26–27）",26,27),("hc-g8","9.9","圣餐（主日28–31）",28,31),
@@ -143,7 +143,7 @@ def part_hc():
             n=ld["n"]
             x+=L3(f'ld{n}',f"主日{n} · {HC52[n][0]}",core_strip(HC_CORE[n])+blocks_html(ld["blocks"])+f'<p class="src">{src_link(ld["url"])} · {src_link(CCI+"/books/i-belong/"+ibref(n),"CCI《我属于》学习课程")}</p>',HC52[n][3],sub=f"问{rng[n][0]}–{rng[n][1]}",cls="art tx ld")
         b += L2(gid,num,gt,x)
-    b += note("<b>分组说明：</b>“第一部/第二部/第三部”及“子神和我们的得赎”“圣灵神和我们的成圣”“我们得称为义”“圣言与圣礼”“圣洗礼”“圣餐”“十诫”“祷告”等标题均为 CCI 页面的目录名；“主日5–10”一组 CCI 未另立标题，本站按其内容（中保、信心、使徒信经、三一、创造与护理）命名。")
+    b += note("<b>分组说明：</b>“第一部/第二部/第三部”及“子神和我们的得赎”“圣灵神和我们的成圣”“我们得称为义”“圣言与圣礼”“圣洗礼”“圣餐”“十诫”“祷告”等均为 CCI 目录名；“主日5–10”一组 CCI 未另立标题，本站按其内容（中保、信心、使徒信经、三一、创造与护理）命名。")
     import c_refx
     b += c_refx.l2('hc')
     import pdf15

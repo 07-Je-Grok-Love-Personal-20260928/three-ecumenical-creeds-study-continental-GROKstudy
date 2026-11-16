@@ -64,8 +64,8 @@ def part_creeds():
       + '<div class="grid g3">'
       + ''.join(f'<a class="pg" href="#{i}" style="--c:{c}"><b>{t}</b><small>{s}</small></a>' for i,t,s,c in [("cr-ap","使徒信经","12 条 · 3 段 · 西方 · 洗礼","#81b29a"),("cr-ni","尼西亚信经","13 节 · 4 段 · 东西共用","#e07a5f"),("cr-at","亚他那修信经","42 点 · 11 组（CCI 编号）","#5aa9e6")])
       + '</div>'
-      + key('<b>每部信经两层：</b>①<b>背诵版</b>——按条（使徒信经 12 条）、按节（尼西亚 13 节）、按主题分组（亚他那修 11 组），一行一句，带编号、图标与背诵工具（全显／首字提示／全遮／逐行跟读）；②<b>CCI 整段原文</b>——每部信经最后一个小节，逐字收录。两层文字完全相同（tools/verify_recite.py 核对）。深度讲解见第二、三、四部分。')
-      + note('三项联合信条的原文库见第八（比利时信条）、第九（海德堡要理问答）、第十（多特信经）部分。'))
+      + key('<b>每部信经两层：</b>①<span class="mk-hl">背诵版</span>——一行一句，带编号与背诵工具；②<span class="mk-u">CCI 整段原文</span>——逐字收录，与背诵版文字相同。深度讲解见第二至四部分。')
+      + note('三项联合信条原文库见第八至十部分。'))
     def block(key_,ztitle):
         d=C[key_]
         return f'<h4 class="qh">CCI 导言（原文）</h4><p class="ex">{H.escape(d["intro"])}</p><h4 class="qh">{H.escape(ztitle)}（原文）</h4>'+"".join(f'<p class="ex cr">{H.escape(p)}</p>' for p in d["paras"])+f'<p class="src">{src_link(d["url"])}</p>'

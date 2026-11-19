@@ -101,7 +101,7 @@ BCG=[("bc-g1","8.2","第1–7条：神与启示（本站分组）",1,7),("bc-g2"
 def part_bc():
     D=J("bc")
     intro="".join(f'<p class="ex">{fn(p)}</p>' for p in D["intro"])
-    b = L2("bc-intro","8.1","导言与说明（CCI 原文）", exact_note("第8–11条（三位一体）与第9条（接受三信经）是本站讲解的核心。")+intro+f'<p class="src">{src_link(D["url"],"CCI 比利时信条总页")}</p>'
+    b = note('姊妹站有《比利时信条》释义精读（克莱伦斯·鲍曼；非 CCI 原文，附页码）。见 '+'<a href="https://07-je-grok-love-personal-20260928.github.io/three-forms-of-unity-study-continental-GROKstudy/lec-bc.html" target="_blank" rel="noopener">十五、比利时信条释义精读</a>。') + L2("bc-intro","8.1","导言与说明（CCI 原文）", exact_note("第8–11条（三位一体）与第9条（接受三信经）是本站讲解的核心。")+intro+f'<p class="src">{src_link(D["url"],"CCI 比利时信条总页")}</p>'
         + chips([(f"bc-{a['n']}",str(a['n']),a['title']) for a in D["articles"]])
         + note("八个分节标题（神与启示、三位一体等）为本站导航所加；CCI 页面本身只按条列出。"))
     for gid,num,gt,lo,hi in BCG:
@@ -125,7 +125,7 @@ def part_hc():
         qs=[int(re.match(r"\s*(\d+)",b["x"]).group(1)) for b in ld["blocks"] if b["t"]=="h4"]
         rng[ld["n"]]=(qs[0],qs[-1])
     intro="".join(f'<p class="ex">{H.escape(p)}</p>' for p in D["intro"])
-    b = L2("hc-intro","9.1","导言与结构（CCI 原文）",exact_note("共 52 个主日、129 问；使徒信经由主日7–22（问22–58）讲解。")+intro+f'<p class="src">{src_link(D["url"],"CCI 海德堡要理问答总页")}</p>'
+    b = note('姊妹站有海德堡要理问答讲座精读（中国改革宗圣经学院 53 讲；非 CCI 原文，附页码）。见 '+'<a href="https://07-je-grok-love-personal-20260928.github.io/three-forms-of-unity-study-continental-GROKstudy/lec-hc.html" target="_blank" rel="noopener">十三、海德堡要理问答讲座精读</a>。') + L2("hc-intro","9.1","导言与结构（CCI 原文）",exact_note("共 52 个主日、129 问；使徒信经由主日7–22（问22–58）讲解。")+intro+f'<p class="src">{src_link(D["url"],"CCI 海德堡要理问答总页")}</p>'
         + chips([(f"ld{l['n']}",str(l['n']),f"主日{l['n']}：问{rng[l['n']][0]}–{rng[l['n']][1]}") for l in lds])
         + note('上方数字＝主日；悬停可见问号范围。各主日附 CCI《我属于》课程链接（主日26–27、28–30、36–37 为合并课）。'))
     groups=[("hc-g1","9.2","第一部 论人的罪和愁苦（主日1–4）",1,4),("hc-g2","9.3","第二部 论我们的得救：中保、信心与信经（主日5–10）",5,10),
@@ -161,7 +161,7 @@ def part_dort():
         for it in h["items"]:
             lab=("驳"+h["num"] if it["title"]=="错谬反驳" else f'{h["num"]}.{it["n"]}')
             chip.append((f'dort-{h["id"]}-{it["n"]}',lab,it["title"]))
-    b = L2("dt-intro","10.1","导言与结构（CCI 原文）",exact_note("多特信经分四项（第三、四项合一），共 63 个条目（含各项“错谬反驳”）。CCI 页面上未见序言或结语部分，本站不另补。")+intro+f'<p class="src">{src_link(D["url"],"CCI 多特信经总页")}</p>'+chips(chip))
+    b = note('姊妹站有《靠主夸口》多特信经学习精读（亚瑟·范·德尔登；非 CCI 原文，附页码）。见 '+'<a href="https://07-je-grok-love-personal-20260928.github.io/three-forms-of-unity-study-continental-GROKstudy/lec-dort.html" target="_blank" rel="noopener">十四、靠主夸口：多特信经学习精读</a>。') + L2("dt-intro","10.1","导言与结构（CCI 原文）",exact_note("多特信经分四项（第三、四项合一），共 63 个条目（含各项“错谬反驳”）。CCI 页面上未见序言或结语部分，本站不另补。")+intro+f'<p class="src">{src_link(D["url"],"CCI 多特信经总页")}</p>'+chips(chip))
     nums=["10.2","10.3","10.4","10.5"]
     for h,num in zip(D["heads"],nums):
         x=""

@@ -143,7 +143,7 @@ def part_hc():
             n=ld["n"]
             x+=L3(f'ld{n}',f"主日{n} · {HC52[n][0]}",core_strip(HC_CORE[n])+blocks_html(ld["blocks"])+f'<p class="src">{src_link(ld["url"])} · {src_link(CCI+"/books/i-belong/"+ibref(n),"CCI《我属于》学习课程")}</p>',HC52[n][3],sub=f"问{rng[n][0]}–{rng[n][1]}",cls="art tx ld")
         b += L2(gid,num,gt,x)
-    b += note("<b>分组说明：</b>“第一部/第二部/第三部”及“子神和我们的得赎”“圣灵神和我们的成圣”“我们得称为义”“圣言与圣礼”“圣洗礼”“圣餐”“十诫”“祷告”等均为 CCI 目录名；“主日5–10”一组 CCI 未另立标题，本站按其内容（中保、信心、使徒信经、三一、创造与护理）命名。")
+    b += note("<b>分组说明：</b>“第一部/第二部/第三部”及各礼端子标题均为 CCI 目录名；“主日5–10”一组 CCI 未另立标题，本站按其内容（中保、信心、使徒信经、三一、创造与护理）命名。")
     import c_refx
     b += c_refx.l2('hc')
     import pdf15

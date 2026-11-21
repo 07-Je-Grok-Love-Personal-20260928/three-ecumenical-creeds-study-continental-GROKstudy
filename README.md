@@ -1,16 +1,16 @@
 # 三大公教会信经 · 欧陆改革宗深读
 
-**版本标签：three-ecumenical-creeds-study-continental-20261119-v23-GROKstudy**（页脚版本 v20261119-23）
+**版本标签：three-ecumenical-creeds-study-continental-20261121-v24-GROKstudy**（页脚版本 v20261121-24）
 
 使徒信经、尼西亚信经、亚他那修信经，以及三项联合信条（比利时信条、海德堡要理问答、多特信经）的中文综合学习网站（欧陆改革宗视角）。原文逐字取自 CCI《赞美手册》中文版；CCI 没有的内容用《中国改革宗教会敬拜手册》2015 版补充，逐字摘引并标页码（tools/verify_pdf.py 核对）。
 
-## 当前版本链接（v23）
+## 当前版本链接（v24）
 - GitHub Pages：https://07-je-grok-love-personal-20260928.github.io/three-ecumenical-creeds-study-continental-GROKstudy/
-- Netlify：https://three-ecumenical-creeds-continental-20261119-v23-grokstudy.netlify.app/
-- Surge：https://three-ecumenical-creeds-continental-20261119-v23-grokstudy.surge.sh/
+- Netlify：https://three-ecumenical-creeds-continental-20261121-v24-grokstudy.netlify.app/
+- Surge：https://three-ecumenical-creeds-continental-20261121-v24-grokstudy.surge.sh/
 - 仓库：https://github.com/07-Je-Grok-Love-Personal-20260928/three-ecumenical-creeds-study-continental-GROKstudy
 
-命名：仓库名只含主题（…-GROKstudy，以后不再改名）；Netlify / Surge 域名为“主题-日期-版本-grokstudy”（小写；t91 起后缀改回 grokstudy）。信经站完整主题名加日期与版本后超过 Netlify 的 63 字符上限，故域名使用缩短形 three-ecumenical-creeds-continental-20261119-v23-grokstudy（去掉中间的 study，与 t87 同类处理），Surge 与 Netlify 同名。每个版本一个新域名，旧域名继续在线。
+命名：仓库名只含主题（…-GROKstudy，以后不再改名）；Netlify / Surge 域名为“主题-日期-版本-grokstudy”（小写；t91 起后缀改回 grokstudy）。信经站完整主题名加日期与版本后超过 Netlify 的 63 字符上限，故域名使用缩短形 three-ecumenical-creeds-continental-20261121-v24-grokstudy（去掉中间的 study，与 t87 同类处理），Surge 与 Netlify 同名。每个版本一个新域名，旧域名继续在线。
 
 ## 发布（Releases）——随时恢复
 
@@ -18,7 +18,9 @@
 
 | 标签 | 说明 | 链接 |
 |---|---|---|
-| `v20261119-23` | v23 当前版本（2026-11-19 台北）：讲解再收紧（CCI 原文不动）；接近视口的地图预先绘出真实图层，切层只改透明度，以去掉手机点到真实地图时的长任务；历史文化块与记忆标记再整理层次；窄屏导航簇与目录按钮再隔开。目录可按一级／二级／全部展开（默认二级，选择记在本机）；右下角导航簇改为细线 SVG 图标，桌面轻玻璃。三项联合信条站增补三份讲座／释义精读页（海德堡 53 讲、多特《靠主夸口》、比利时信条释义），标明页码，与 CCI 原文分开；信经站只加交叉链接。 | https://github.com/07-Je-Grok-Love-Personal-20260928/three-ecumenical-creeds-study-continental-GROKstudy/releases/tag/v20261119-23 |
+| `v20261121-24` | v24 当前版本（2026-11-21 台北）：手机／平板正文改为通栏（左右仅 6–8px，不再为悬浮导航预留右侧空条；收起目录时不再露出左边线）。海德堡 52 主日图标记忆地图及同类卡片栅格改为约 11–12px 字体、紧凑内边距、自动列数（390px 上 4–5 列），标题最多两行，点按高度至少 32px，一屏可见全部 52 个主日。CCI 原文不动（verify_exact 513/0）。 | https://github.com/07-Je-Grok-Love-Personal-20260928/three-ecumenical-creeds-study-continental-GROKstudy/releases/tag/v20261121-24 |
+| `v20261121-23r` | v23r（恢复点：t106 开始前，钉在 v23 之后的徽章对比度 CSS 提交 dc7a10d）（2026-11-21 台北）：图例数字徽章对比度提到 WCAG AA。不移动 v20261119-23。 | https://github.com/07-Je-Grok-Love-Personal-20260928/three-ecumenical-creeds-study-continental-GROKstudy/releases/tag/v20261121-23r |
+| `v20261119-23` | v23（恢复点：t103 讲座交叉链接版 dc75cb6）（2026-11-19 台北）：讲解再收紧（CCI 原文不动）；接近视口的地图预先绘出真实图层，切层只改透明度，以去掉手机点到真实地图时的长任务；历史文化块与记忆标记再整理层次；窄屏导航簇与目录按钮再隔开。目录可按一级／二级／全部展开（默认二级，选择记在本机）；右下角导航簇改为细线 SVG 图标，桌面轻玻璃。三项联合信条站增补三份讲座／释义精读页（海德堡 53 讲、多特《靠主夸口》、比利时信条释义），标明页码，与 CCI 原文分开；信经站只加交叉链接。 | https://github.com/07-Je-Grok-Love-Personal-20260928/three-ecumenical-creeds-study-continental-GROKstudy/releases/tag/v20261119-23 |
 | `v20261116-22` | v22（恢复点：t102 前的线上版本 d260daf）（2026-11-16 台北）：讲解再收紧（CCI 原文不动）；地图切层改回同格 visibility 切换以去掉点击长任务；手机真实地图加边距，避免贴边裁切；导航与目录再让位 | https://github.com/07-Je-Grok-Love-Personal-20260928/three-ecumenical-creeds-study-continental-GROKstudy/releases/tag/v20261116-22 |
 | `v20261116-21` | v21（恢复点：t101 前的线上版本 1afeb86）（2026-11-16 台北）：去掉页首主题文字选择，右下角统一导航簇（后退／前进／到顶／到底／首页／主题），手机滚动隐藏，无脚本保留到顶与首页；使徒信经页首屏长任务与 1280 滚动再优化 | https://github.com/07-Je-Grok-Love-Personal-20260928/three-ecumenical-creeds-study-continental-GROKstudy/releases/tag/v20261116-21 |
 | `v20261116-20` | v20（恢复点：t100 前的线上版本 119cdec）（2026-11-16 台北）：讲解再收紧（与历史块／地图重复的时间线与地理说明删去，核心加记忆标记；CCI 原文不动）、地图切层预留高度、目录路径与 1280 滚动 | https://github.com/07-Je-Grok-Love-Personal-20260928/three-ecumenical-creeds-study-continental-GROKstudy/releases/tag/v20261116-20 |

@@ -1,6 +1,6 @@
 # 三大公教会信经 · 欧陆改革宗深读
 
-**版本标签：three-ecumenical-creeds-study-continental-20261122-v25-GROKstudy**（页脚版本 v20261122-25）
+**版本标签：three-ecumenical-creeds-study-continental-20261122-v25-GROKstudy**（页脚版本 v20261122-25a）
 
 使徒信经、尼西亚信经、亚他那修信经，以及三项联合信条（比利时信条、海德堡要理问答、多特信经）的中文综合学习网站（欧陆改革宗视角）。原文逐字取自 CCI《赞美手册》中文版；CCI 没有的内容用《中国改革宗教会敬拜手册》2015 版补充，逐字摘引并标页码（tools/verify_pdf.py 核对）。
 
@@ -18,6 +18,7 @@
 
 | 标签 | 说明 | 链接 |
 |---|---|---|
+| `v20261122-25a` | v25a 补丁（2026-11-22 台北）：修正右下角目录按钮／导航簇压住正文的问题（悬浮簇在滚动时收起，静止时只给会发生重叠的块让出右下角，手机正文仍贴边 ≤12px；无脚本时右侧预留簇的位置）。不移动标签 v20261122-25。 | https://github.com/07-Je-Grok-Love-Personal-20260928/three-ecumenical-creeds-study-continental-GROKstudy/releases/tag/v20261122-25a |
 | `v20261122-25` | v25 当前版本（2026-11-22 台北）：手机／平板正文进一步贴边通栏。章节玻璃卡片、原文说明与 CCI 原文块不再层层加边距，正文到屏边约 9–10px（≤12px；原先左侧约 21px、右侧约 73px）；同类说明、问答、讲座块与表格同样压平。桌面两侧最大留白由 48px 收到 28px。CCI 原文与字号不动（verify_exact 513/0）。 | https://github.com/07-Je-Grok-Love-Personal-20260928/three-ecumenical-creeds-study-continental-GROKstudy/releases/tag/v20261122-25 |
 | `v20261121-24` | v24（恢复点：t107 前的线上版本 4ca9086）（2026-11-21 台北）：手机／平板正文改为通栏（左右仅 6–8px，不再为悬浮导航预留右侧空条；收起目录时不再露出左边线）。海德堡 52 主日图标记忆地图及同类卡片栅格改为约 11–12px 字体、紧凑内边距、自动列数（390px 上 4–5 列），标题最多两行，点按高度至少 32px，一屏可见全部 52 个主日。CCI 原文不动（verify_exact 513/0）。 窄屏标题、脚注、说明与来源对照表为右下角悬浮导航让出边距；无脚本时正文同样让出展开的导航簇，有脚本的手机仍通栏；对照表取消 560px 最小宽度，改为栏内横向滚动，以免压住按钮或溢出。 | https://github.com/07-Je-Grok-Love-Personal-20260928/three-ecumenical-creeds-study-continental-GROKstudy/releases/tag/v20261121-24 |
 | `v20261121-23r` | v23r（恢复点：t106 开始前，钉在 v23 之后的徽章对比度 CSS 提交 dc7a10d）（2026-11-21 台北）：图例数字徽章对比度提到 WCAG AA。不移动 v20261119-23。 | https://github.com/07-Je-Grok-Love-Personal-20260928/three-ecumenical-creeds-study-continental-GROKstudy/releases/tag/v20261121-23r |

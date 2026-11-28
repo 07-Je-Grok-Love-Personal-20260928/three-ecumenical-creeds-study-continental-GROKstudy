@@ -1,16 +1,16 @@
 # 三大公教会信经 · 欧陆改革宗深读
 
-**版本标签：three-ecumenical-creeds-study-continental-20261123-v29-GROKstudy**（页脚版本 v20261123-29）
+**版本标签：three-ecumenical-creeds-study-continental-20261128-v30-GROKstudy**（页脚版本 v20261128-30）
 
-使徒信经、尼西亚信经、亚他那修信经，以及三项联合信条（比利时信条、海德堡要理问答、多特信经）的中文综合学习网站（欧陆改革宗视角）。原文逐字取自 CCI《赞美手册》中文版；CCI 没有的内容用《中国改革宗教会敬拜手册》2015 版补充，逐字摘引并标页码（tools/verify_pdf.py 核对）。
+使徒信经、尼西亚信经、亚他那修信经，以及三项联合信条（比利时信条、海德堡要理问答、多特信经）的中文综合学习网站（欧陆改革宗视角）。原文逐字取自 CCI《赞美手册》中文版；CCI 没有的内容用《中国改革宗教会敬拜手册》2015 版补充，逐字摘引；出处标在页末「关于本页」说明中（tools/verify_pdf.py 核对）。
 
-## 当前版本链接（v29）
+## 当前版本链接（v30）
 - GitHub Pages：https://07-je-grok-love-personal-20260928.github.io/three-ecumenical-creeds-study-continental-GROKstudy/
-- Netlify：https://three-ecumenical-creeds-continental-20261123-v29-grokstudy.netlify.app/
-- Surge：https://three-ecumenical-creeds-continental-20261123-v29-grokstudy.surge.sh/
+- Netlify：https://three-ecumenical-creeds-continental-20261128-v30-grokstudy.netlify.app/
+- Surge：https://three-ecumenical-creeds-continental-20261128-v30-grokstudy.surge.sh/
 - 仓库：https://github.com/07-Je-Grok-Love-Personal-20260928/three-ecumenical-creeds-study-continental-GROKstudy
 
-命名：仓库名只含主题（…-GROKstudy，以后不再改名）；Netlify / Surge 域名为“主题-日期-版本-grokstudy”（小写；t91 起后缀改回 grokstudy）。信经站完整主题名加日期与版本后超过 Netlify 的 63 字符上限，故域名使用缩短形 three-ecumenical-creeds-continental-20261123-v29-grokstudy（去掉中间的 study，与 t87 同类处理），Surge 与 Netlify 同名。每个版本一个新域名，旧域名继续在线。
+命名：仓库名只含主题（…-GROKstudy，以后不再改名）；Netlify / Surge 域名为“主题-日期-版本-grokstudy”（小写；t91 起后缀改回 grokstudy）。信经站完整主题名加日期与版本后超过 Netlify 的 63 字符上限，故域名使用缩短形 three-ecumenical-creeds-continental-20261128-v30-grokstudy（去掉中间的 study，与 t87 同类处理），Surge 与 Netlify 同名。每个版本一个新域名，旧域名继续在线。
 
 ## 发布（Releases）——随时恢复
 
@@ -18,6 +18,7 @@
 
 | 标签 | 说明 | 链接 |
 |---|---|---|
+| `v20261128-30` | v30 当前版本（2026-11-28 台北）：与姊妹站同一套修正——问答卡片改为并排 Q/A 徽章与编号，去掉叠在正文上的「问：」「答：」（CCI 原文仍逐字节保留）。记忆地图标题完整换行显示，不再省略号截断。段落去掉硬换行与行内页码标记，来源与说明收入页末折叠的「关于本页」；页首只留一句内容导语。几何矩阵 16/16、六主题对比度 AA 0 项不及格、svg_overlap 0、verify_exact 513/0。不移动标签 v20261123-29 / v28 / v27 / v26 / v25 / v25a。域名 three-ecumenical-creeds-continental-20261128-v30-grokstudy。旧站 v29 及更早的域保留为恢复点。 | https://github.com/07-Je-Grok-Love-Personal-20260928/three-ecumenical-creeds-study-continental-GROKstudy/releases/tag/v20261128-30 |
 | `v20261123-29` | v29 当前版本（2026-11-23 台北）：与姊妹站同一套修正——顶栏目录图标纳入页签行，抽屉打开时隐藏以免盖住「目录」标题与 ×；层级按钮在最小拖拽宽度换行并避开关闭钮。几何矩阵新增铬件重叠检查。主题与启动器、发丝线沿用。几何矩阵 16/16、六主题对比度 AA 0 项不及格、svg_overlap 0、verify_exact 513/0。不移动标签 v20261122-28 / v27 / v26 / v25 / v25a。域名 three-ecumenical-creeds-continental-20261123-v29-grokstudy。旧站 v28 及更早的域保留为恢复点。 | https://github.com/07-Je-Grok-Love-Personal-20260928/three-ecumenical-creeds-study-continental-GROKstudy/releases/tag/v20261123-29 |
 | `v20261122-28` | v28 当前版本（2026-11-22 台北）：与姊妹站同一套六套产品风主题（墨灰默认、夜幕、暗蓝灰、雅白、素纸、素净）；两点启动器、目录按钮常驻右下、图标无中文标签；左上角目录图标找回；顶栏隐藏发丝线为强调色渐变并带呼吸漂移。信经正文范围不变。几何矩阵 16/16、六主题对比度 AA 0 项不及格、svg_overlap 0、verify_exact 513/0。不移动标签 v20261122-27 / v20261122-26 / v20261122-25 / v20261122-25a。域名 three-ecumenical-creeds-continental-20261122-v28-grokstudy。旧站 v27、v26、v25 与 v25a 的域保留为恢复点。 | https://github.com/07-Je-Grok-Love-Personal-20260928/three-ecumenical-creeds-study-continental-GROKstudy/releases/tag/v20261122-28 |
 | `v20261122-27` | v27 当前版本（2026-11-22 台北）：与姊妹站同一套六个新主题（墨玉、午夜藏蓝金、宫廷纸本、青瓷、紫藤晨雾、炭灰玫瑰金），以及可钉住或收成发丝细线的顶栏目录。信经正文范围不变。几何矩阵 8/8、六主题对比度 AA、svg_overlap 均通过；CCI 原文不动（verify_exact 513/0）。不移动标签 v20261122-26 / v20261122-25 / v20261122-25a。域名 three-ecumenical-creeds-continental-20261122-v27-grokstudy。旧站 v26、v25 与 v25a 的域保留为恢复点。 | https://github.com/07-Je-Grok-Love-Personal-20260928/three-ecumenical-creeds-study-continental-GROKstudy/releases/tag/v20261122-27 |
